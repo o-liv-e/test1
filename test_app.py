@@ -1,5 +1,5 @@
 import pytest
-from app import finc_max, count_even
+from app import find_max, count_even
 
 @pytest.mark.parametrize("numbers, expected", [([1,5,3], 5), ([-10, -2, -7], 2), ([4,4,4], 4),])
 
